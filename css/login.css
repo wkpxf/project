@@ -1,0 +1,92 @@
+
+.nav{
+	height: 80px;
+	background-color: #FF4A83;
+	text-align: center;
+	color: #fdfdfd;
+	letter-spacing: 4px;
+	position: relative;
+	font-size: 18px;
+	overflow: hidden;
+}
+.nav>div{
+	position: absolute;
+	bottom: 20px;
+}
+.nav>.img{
+	width: 12px;
+	height: 21px;
+	left: 20px;
+}
+.nav>.text{
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 44px;
+}
+
+.nav>.register{
+	width: auto;
+	right: 20px;
+	text-align: center;
+}
+
+.register>a{
+	display: block;
+	color: #fff;
+}
+.btn-zhuce{
+	overflow: hidden;
+}
+.btn-zhuce>li{
+	float: left;
+	border: none;
+}
+.btn-zhuce>li:nth-child(2){
+	float: right;
+}
+.other-login{
+	padding-left: 55px;
+	padding-right: 55px;
+	height: 100px;
+}
+
+.other-login>.other-line{
+	position: relative;
+	border-top: 1px solid #EB6100;
+	margin-top: 60px;
+}
+
+.other-login>.other-line>.other-text{
+	width: 100px;
+	position: absolute;
+	padding: 0 10px;
+	left: 0;
+	right: 0;
+	top: -10px;
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: center;
+	color: #EB6100;
+}
+
+.other-login>.other-icon{
+	width: 210px;
+	margin: 30px auto 0;
+	height: 60px;
+}
+.other-icon{
+	overflow: hidden;
+}
+.other-login>.other-icon>div{
+	float: left;
+}
+.other-icon>.img{
+	width: 32px;
+}
+.other-icon .img-a{
+	margin: 0 57px;
+}
+.other-icon > .image {
+    width: 23px;
+}

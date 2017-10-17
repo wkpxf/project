@@ -1,0 +1,55 @@
+<link rel="stylesheet" type="text/css" href="./css/reset.css"" />
+<link rel="stylesheet" type="text/css" href="./css/create.css" />
+<link rel="stylesheet" type="text/css" href="./css/login.css" />
+
+	<div ng-swipe-left="jump('home')">
+		<div class="nav">
+			<div class="img">
+				<img src="./image/left.png" />
+			</div>
+			<div class="text">登录</div>
+		</div>
+		<div class="form">
+			<ul>
+				<li>
+					<div class="input">
+						<input type="text" name="" placeholder="请输入手机号" />
+					</div>
+				</li>
+				<li>
+					<div class="input">
+						<input type="text" name="" placeholder="请输入6-16位密码" />
+					</div>
+				</li>
+			</ul>
+
+			<div class="btn login-btn">
+				<a  ng-click="jump('my.home');">登录</a>
+			</div>
+
+			<div class="btn-zhuce">
+				<li>找回密码</li>
+				<li><a  ng-click="jump('zhuce');">立即注册</a></li>
+			</div>
+
+		</div>
+
+		<div class="other-login">
+			<div class="other-line">
+				<span class="other-text">其他登录方式</span>
+			</div>
+			<div class="other-icon">
+					<div class="img image">
+						<img src="./image/qq.png" />
+				</div>
+					<div class="img img-a">
+						<img src="./image/weixin1.png" />
+					</div>
+					<div class="img ">
+						<img src="./image/weibo.png" />
+					</div>
+			</div>
+
+		</div>
+
+	</div>

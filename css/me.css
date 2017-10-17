@@ -1,0 +1,86 @@
+body{
+	background-color: #e9e9e9;
+}
+.container{
+	position: relative;
+}
+.container>.bingjilin{
+	position: absolute;
+	top: 15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 48px;
+}
+.container>.bingjilin>.img{
+	max-width: 48px;
+}
+.container>.banner>.img{
+	height: 100%;
+}
+.container>.bingjilin>p{
+	color: #fff;
+
+}
+.container>.banner>.img img{
+	height: 100px;
+}
+.wo{
+	background-color: #fff;
+}
+.wosc{	
+	padding: 0 5%;
+	background-color: #fff;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.wosc>li{
+	line-height: 30px;
+	float: left;
+	width: 50%;
+}
+.wodd{
+	padding: 0 5%;
+	margin-top: 10px;
+	background-color: #fff;
+}
+.wodd1{
+	margin-top:1px;
+}
+.wodd>ul{
+	overflow: hidden;
+}
+.wodd>ul>li{
+	float: left;
+	width: 50%;
+	height: 34px;
+	line-height: 34px;
+}
+.wodd>ul>li a{
+	color: #000;
+}
+.wodd>ul>li .img{
+	float: right;
+	width: 8%;
+	max-width: 10px;
+	transform: translateY(50%);
+}
+.wo>ul{
+	margin:0 5%;
+	overflow: hidden;
+}
+.wo>ul>li{
+	text-align: center;
+	height: 68px;
+	float: left;
+	width: 25%;
+}
+.wo>ul>li P{
+	position: relative;
+	top: 10px;
+}
+.wo>ul>li .img{
+	margin:0 auto;
+    max-width: 26px;
+    transform: translateY(50%);
+}

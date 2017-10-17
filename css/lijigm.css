@@ -1,0 +1,102 @@
+
+.banner-nav{
+	background-color:#c2c2c2;
+	position: relative;
+}
+.banner>img{
+	height: 200px;
+}
+.banner-nav>.background{
+	position: absolute;
+	height: 175px;
+	width: 100%;
+	top: 0;
+	z-index: 3;
+	background-color: rgba(0,0,0, 0.5);
+}
+.xuanze-box{
+	position: relative;
+    top: -30px;
+    z-index: 3;
+    background-color: #fff;
+}
+.xuanze-box>.xuanze{
+	overflow: hidden;
+	padding: 0 5%;
+}
+.xuanze>.left{
+	border: 1px solid#e9e9e9;
+	position: absolute;
+	top: -50px;
+	max-width: 100px;
+	width: 32%;
+	z-index: 3;
+}
+.xuanze>.right{
+    float: right;
+    width: 60%;
+}
+.right>ul{
+	overflow: hidden;
+}
+.right>ul>li{
+	height: 20px;
+	line-height: 20px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.right>ul>li div{
+	float: left;
+}
+.right>ul>li .img{
+	float: right;
+	width: 8%;
+	max-width: 10px;
+	transform: translateY(50%);
+}
+.yanse{
+	border-top: 1px solid#e9e9e9;
+	padding:0 5%;
+}
+.yanse>p{
+	margin-bottom: 5%;
+}
+.yanse>span{
+	text-align: center;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	border: 1px solid#e9e9e9;
+}
+.yanse>.span{
+	border: 1px solid#ff4a83;
+}
+.yanse>ul{
+	overflow: hidden;
+	margin-left: 5%;
+}
+.yanse>ul>li{
+	float: left;
+}
+.yanse>ul>li{
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	width: 60px;
+	background-color: #e9e9e9;
+}
+.yanse>ul .l{
+	border-radius: 2px;
+	box-sizing: border-box;
+	border: 1px solid#c2c2c2;
+	background-color: #fff;
+}
+.queren{
+	margin-top: 100px;
+	background-color: #ff4a83;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+.queren>a{
+	color: #000;
+}

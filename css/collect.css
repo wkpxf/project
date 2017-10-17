@@ -1,0 +1,16 @@
+.orders>ul{
+	border-bottom: 1px solid#c2c2c2;
+}
+.right>ul>.img{
+	float: right;
+    width: 50%;
+    max-width: 18px;
+    border: none;
+    transform: translateY(50%);
+}
+.right>ul>li{
+	line-height: 30px;
+}
+.media{
+	border:none;
+}

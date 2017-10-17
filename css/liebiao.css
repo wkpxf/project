@@ -1,0 +1,67 @@
+
+.nav1>.img1{
+	position: absolute;
+	left: 15px;
+	max-width: 12px;
+	top: 40px;
+}
+.nav1>.img2{
+	position: absolute;
+	top: 39px;
+	right: 15px; 
+	max-width: 26px;
+}
+.lianjie{
+	padding: 5% 5% 10%;
+}
+.lianjie-k>ul{
+	overflow: hidden;
+}
+.lianjie-k>ul>li{
+	background-color: #fff;
+	border: 1px solid#c2c2c2;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+.lianjie-k>ul>li a{
+	color: #000;
+}
+.lianjie-k>ul>li:hover{
+	background-color: #FF4A83;
+}
+.changping{
+	margin: 5% 0;
+}
+.changping>ul{
+	overflow: hidden;
+    margin-bottom: 5%;
+}
+.changping>ul>li{
+	font-size: 12px;
+	border: 1px solid#c2c2c2;
+	box-sizing: border-box;
+	float: left;
+	width: 47.5%;
+	margin-right: 5%;
+	background-color: #fff;
+}
+.changping>ul>li:nth-child(2){
+	margin: 0;
+}
+.changping>ul>li .img{
+	width: 50%;
+	margin: 0 25%;
+}
+.xia{
+	overflow: hidden;
+}
+.xia>div{
+	line-height: 18px;
+	float: left;
+}
+.xia>.img2{
+    max-width: 18px;
+	float: right;
+}

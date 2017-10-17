@@ -1,0 +1,46 @@
+.nav1{
+	height: 80px;
+	background-color: #FF4A83;
+	text-align: center;
+	color: #fdfdfd;
+	letter-spacing: 4px;
+	font-size: 18px;
+	overflow: hidden;
+	position: relative;
+}
+.nav1>.text{
+    bottom: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.nav1>.img{
+	position: absolute;
+	float: right;
+	bottom: 20px;
+	right: 20px;
+	width: 21px;
+	max-width: 21px;
+	min-width: 11px;
+}
+.gouwuche{
+	margin-top: 5%;
+}
+.gouwuche>ul>li{
+    width: 50%;
+    margin: 5% 25%;
+    text-align:center;
+}
+.gouwuche>ul>li a{
+	color: #fff;
+}
+.gouwuche>ul>li .img{
+	margin: 0 auto;
+	width: 33%;
+	min-width: 50px;
+}
+.gouwuche>ul>li:nth-child(3){
+	color: #fff;
+	line-height: 30px;
+	background-color: #FF4A83;
+}

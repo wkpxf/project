@@ -1,0 +1,83 @@
+<link rel="stylesheet" href="./css/reset.css" />
+<link rel="stylesheet" href="./css/me.css" />
+
+   <div class="container" ng-swipe-left="jump('my.home');" ng-swipe-right="jump('my.shopping');">
+		<div class="banner">
+			<div class="img"><img src="./image/banner3.png"></div>
+		</div>
+		   <div class="bingjilin">
+				 <div class="img"><img src="./image/wo.png" /></div>
+		         <p>冰淇淋</p>
+
+		   </div>
+		    <div class="wosc">
+					<li   ng-click="jump('collect');">我的收藏(0)</li>
+					<li>我的足迹(0)</li>
+			   </div>
+
+           <div class="wo">
+			   <div class="wodd">
+					<ul>
+						<li>我的订单</li>
+							<li >
+							<div class="img ">
+							  	<a  ng-click="jump('order');"><img src="./image/right1.png"/></a>
+							</div>
+						</li>
+					</ul>
+			   </div>
+			   <ul>
+					<li ng-click="jump('order');">
+						<div class="img"><img src="./image/daifukuan.png" /></div>
+						<p>待付款</p>
+					</li>
+					<li>
+						<div class="img"><img src="./image/daifahuo.png"></div>
+						<p>待发货</p>
+					</li>
+					<li>
+						<div class="img"><img src="./image/daishouhuo.png"></div>
+						<p>待收货</p>
+					</li>
+					<li>
+						<div class="img img1"><img src="./image/daipingjia.png"></div>
+						<p>待评价</p>
+					</li>
+					
+			   </ul>
+		   </div>
+
+		   <div class="wodd">
+					<ul>
+						<li >账户管理</li>
+						<li ng-click="jump('bound');"><div class="img"><img src="./image/right1.png"/></div></li>
+					</ul>
+		   </div>
+
+
+		   <div class="wodd wodd1">
+					<ul>
+						<li>联系客服</li>
+						<li ><div class="img"><img src="./image/right1.png"/></div></li>
+					</ul>
+		   </div>
+		   
+		   <div class="wodd wodd1">
+					<ul>
+						<li>会员特权</li>
+						<li ><div class="img"><img src="./image/right1.png"/></div></li>
+					</ul>
+		   </div>
+
+			<div class="wodd wodd1">
+					<ul>
+						<li >设置</li>
+						<li  ng-click="jump('setting');"><div class="img"><img src="./image/right1.png"/></div></li>
+					</ul>
+		   </div>
+		    <div class="border"></div>
+
+	 	<!-- <my-directive></my-directive> -->
+      
+	   </div>
+   </div>

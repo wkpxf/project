@@ -1,0 +1,52 @@
+.nav1>p{
+	position: absolute;
+	top: 36px;
+	right: 15px;
+}
+.top{
+	margin:0 5%;
+	overflow: hidden;
+}
+.top>div{
+    float: left;
+    line-height: 50px;
+    height: 50px;
+}
+.top>.img{
+	position: relative;
+	width: 8%;
+	max-width: 20px;
+	min-width: 10px;
+	margin-right: 10px;
+}
+.top>.img>img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+.bottom{
+	margin: 5% 10%;
+	overflow: hidden;
+}
+.bottom>div{
+	float: left;
+	text-align: center;
+	line-height: 36px;
+	border:1px solid#c2c2c2;
+	width: 25%;
+	border-radius:8px;
+	box-sizing: border-box;
+}
+.bottom>div:nth-child(1){
+	border-color: #e4393c;
+}
+.bottom>.fenge{
+    margin:0 12.5%;
+}
+.wenzix{
+	text-align: center;
+	line-height: 50px;
+}

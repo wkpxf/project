@@ -1,0 +1,31 @@
+
+.xiuxi{
+	margin-top:10px;
+}
+.xiuxi>ul{
+	background-color: #fff;
+	margin-bottom: 1px;
+	padding: 10px;
+	overflow: hidden;
+}
+.xiuxi>ul:nth-child(1)>li{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	line-height: 38px;
+}
+.xiuxi>ul>li .img{
+	float: right;
+	width: 38px;
+}
+.xiuxi>ul>li{
+	line-height: 26px;
+	float: left;
+	width: 50%;
+	overflow: hidden;
+}
+.xiuxi>ul>li .img1{
+	margin-top: 5px;
+	float: right;
+	width: 10px;
+}

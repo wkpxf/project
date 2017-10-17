@@ -1,0 +1,50 @@
+.form{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.form li{
+	overflow: hidden;
+	margin-top: 30px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #DFDFDF; 
+}
+
+.form li>div{
+	float: left;
+}
+.form li>.input{
+	width: 100%;
+}
+.input>input[type="text"]{
+	width: 100%;
+	border: none;
+	height: 28px;
+	color: #666;
+	letter-spacing: 1px;
+}
+.input>input[type="text"]::-webkit-input-placeholder{
+	color: #aaa;
+	font-size: 14px;
+}
+.btn{
+	margin-top: 60px;
+}
+.btn>a{
+	line-height: 36px;
+	display: block;
+	color: #fdfdfd;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-btn>a{
+	background-color: #FF4A83;
+}
+
+.login-btn>a:active{
+	background-color: #EA710D;
+}
+.btn-zhuce>li a{
+	color: #000;
+}

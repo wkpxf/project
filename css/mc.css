@@ -1,0 +1,36 @@
+
+.xiaoxi{
+	background-color: #fff;
+	padding:0 5%;
+	margin-top: 10px;
+}
+.top{
+	overflow: hidden;
+	font-size: 12px;
+	padding: 5% 0;
+}
+.top>div{
+	float: left;
+}
+.top>.left{
+	width: 20%;
+	padding-right: 5%;
+	max-width: 34px;
+}
+.top>.right{
+	width: 75%
+}
+.right>ul>li{
+	overflow: hidden;
+}
+.right>ul>li div{
+	float: left;
+}
+.right>ul>li:nth-child(2){
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.xiaoxi1{
+	margin-top: 1px;
+}

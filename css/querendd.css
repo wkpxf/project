@@ -1,0 +1,172 @@
+
+.dizhi{
+    background-color: #fff;
+    margin-top: 10px;
+	border-top: 2px dashed #ff4a83;
+	border-bottom: 2px dashed #ff4a83;
+}
+.dizhi>ul{
+	margin: 0 5%;
+	overflow: hidden;
+}
+.dizhi>.l1>li{
+	height: 36px;
+	line-height: 36px;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.dizhi>.l1>li div{
+	float: left;
+}
+.dizhi>.l1>li .img{
+	padding-right: 5%;
+	width: 20%;
+	max-width: 18px;
+	transform: translateY(50%);
+}
+.dizhi>.l1>li .wenzi{
+	width: 75%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.dizhi>ul>.wenzi{
+	width: 75%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.dizhi>ul>li{
+	line-height: 26px;
+	float: left;
+}
+.dizhi>ul>.img{
+	padding-right: 5%;
+	width: 20%;
+	max-width: 20px;
+	transform: translateY(50%);
+}
+.media{
+	 background-color: #fff;
+	 padding:5%;
+}
+
+.media-bottom{
+   	overflow: hidden;
+	position: relative;
+	
+}
+.media-bottom>div{
+	float: left;
+}
+.media-bottom>.left{
+	border: 1px solid#c2c2c2;
+	box-sizing: border-box;
+	width: 30%;
+	margin-right: 5%;
+}
+.media-bottom>.right{
+	position: absolute;
+	height: 100%;
+	width: 65%;
+	right: 0;
+}
+h3{
+	font-size: 12px;
+	margin: 0;
+}
+.media>.right{
+	width: 60%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+.left>div{
+	float: left;
+}
+.left>.line{
+	font-size: 12px;
+}
+.right>ul{
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.right>ul>li{
+	float: left;
+	line-height: 20px;
+}
+.right>ul>li:nth-child(1){
+	width: 70%;
+}
+.right>ul>li:nth-child(2){
+	width: 30%;
+}
+.right1>.img{
+	width: 20%;
+	max-width: 10px;
+   transform: translateY(50%);
+}
+.right1{
+	overflow: hidden;
+}
+.right1>div{
+	float: right;
+}
+.right1>.wenzi{
+	padding-right: 15px;
+}
+.shuju{
+	background-color: #fff;
+}
+.shuju>ul{
+	padding: 0 5%;
+	overflow: hidden;
+	border-top: 1px solid#e9e9e9;
+}
+.shuju>.l1{
+	border-top: 10px solid#e9e9e9;
+}
+.shuju>ul>li{
+	float: left;
+	overflow: hidden;
+	width: 50%;
+	height: 34px;
+	line-height: 34px;
+}
+.shuju>ul>.r{
+	text-align:right; 
+}
+.shuju>ul>li .img{
+	float: right;
+	width: 20%;
+	max-width: 10px;
+	transform: translateY(50%);
+}
+.tijiao{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	overflow: hidden;
+}
+.tijiao>span{
+	height: 36px;
+	line-height: 36px;
+}
+.tijiao>.l{
+	width: 70%;
+	padding-left:5%;
+	border-top:1px solid#000;
+	color: #ff4a83;
+}
+.tijiao>a{
+	height: 37px;
+	line-height: 37px;
+	width: 25%;
+	text-align: center;
+	background-color: #FF4A83;
+	float: right;
+	color: #fff;
+}

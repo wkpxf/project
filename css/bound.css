@@ -1,0 +1,61 @@
+
+.nav>.text {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+}
+.Account-binding-1{
+	background-color: #fff;
+	overflow: hidden;
+    padding:15px;
+	margin-top: 1px;
+
+}
+
+.fl{
+	width: 50%;
+	border-color: #c2c2c2;
+	overflow: hidden;
+}
+.fl>div{
+	float: left;
+	line-height: 30px;
+	height: 30px;
+}
+.fl>.img{
+	width: 20%;
+	max-width: 28px;
+	min-width: 18px;
+	position: relative;
+}
+.fl>.img>img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto 0;
+}
+.fl>.img1{
+	width: 20%;
+	max-width: 10px;
+	position: relative;
+	float: right;
+}
+.fl>.img1>img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+}
+.fl>.wenzi{
+	padding-left: 15px;
+}
+.fl>.wenzi1{
+	width: 80%;
+	padding-right: 5px;
+	text-align:right;
+}
